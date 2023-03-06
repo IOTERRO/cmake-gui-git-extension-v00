@@ -6,7 +6,7 @@ file(GLOB MOTEUR_SRC ${MOT_DIR}/*.cpp)
 
 add_library(moteur STATIC ${MOTEUR_SRC})
 
-target_link_libraries(moteur sensor)
+target_link_libraries(moteur sensor stepperMotor)
 
 target_include_directories(moteur PUBLIC "${MOT_DIR}")
 
