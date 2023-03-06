@@ -6,6 +6,7 @@
 *.lib
 *.idb
 *.pch
+*.ipch
 *.res
 *.exp
 *.ilk
@@ -30,6 +31,7 @@
 *.symbols
 
 # Dossiers générés par Visual Studio
+projectMSVC19
 #[Bb]in/
 #[Dd]ebug/
 #[Rr]elease/
